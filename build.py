@@ -173,14 +173,20 @@ def build_site(config):
         if os.path.exists(src):
             shutil.copytree(src, dst)
 
-    # Build portal landing page
+    # Copy gate page as index.html (entry point with password)
+    gate_src = os.path.join(TEMPLATE_DIR, 'gate.html')
+    if os.path.exists(gate_src):
+        shutil.copy2(gate_src, os.path.join(OUTPUT_DIR, 'index.html'))
+        print(f"  Built: index.html (gate)")
+
+    # Build portal landing page as home.html
     portal_tmpl = env.get_template('portal-landing.html')
     html = portal_tmpl.render(
         site=config['site'],
         categories=config['categories'],
     )
-    write_file(os.path.join(OUTPUT_DIR, 'index.html'), html)
-    print(f"  Built: index.html")
+    write_file(os.path.join(OUTPUT_DIR, 'home.html'), html)
+    print(f"  Built: home.html")
 
     # Build each category
     category_tmpl = env.get_template('category-landing.html')
