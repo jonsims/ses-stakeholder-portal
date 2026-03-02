@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ category.name }} — {{ site.title }}</title>
+  <link rel="stylesheet" href="../css/shared.css">
+</head>
+<body data-category="{{ category.id }}">
+  <div class="landing">
+    <div class="landing__header">
+      <a href="../" class="back-link">All Categories</a>
+      <div style="font-size: 40px; margin-bottom: 8px;">{{ category.icon }}</div>
+      <h1 class="landing__title">{{ category.name }}</h1>
+      <p class="landing__subtitle">{{ category.tagline }}</p>
+    </div>
+
+    <div class="role-grid">
+      {% for sh in stakeholders %}
+      <a href="{{ sh.id }}.html" class="role-card" style="--role-color: {{ sh.color }}">
+        <div class="role-card__icon">{{ sh.icon }}</div>
+        <div class="role-card__name">{{ sh.short }}</div>
+        <div class="role-card__tagline">{{ sh.role_title[:60] }}{% if sh.role_title|length > 60 %}...{% endif %}</div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <div class="landing__footer">
+      {{ site.subtitle }}
+    </div>
+  </div>
+</body>
+</html>

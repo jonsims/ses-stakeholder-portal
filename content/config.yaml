@@ -1,0 +1,279 @@
+site:
+  title: "SES Stakeholder Summit"
+  subtitle: "Socioecological Systems — Babson College"
+  description: "Prepare for the Early-Stage LCSA Stakeholder Discussion"
+
+categories:
+  - id: produce
+    name: Produce
+    icon: "\U0001F96C"
+    tagline: "Fresh fruits & vegetables — farm to fork"
+    color: "#16a34a"
+    color_light: "#f0fdf4"
+    source_file: "01 - Produce - Stakeholder.md"
+    stakeholders:
+      - id: farm-owner
+        name: "Large Industrial Farm Owner/Operator"
+        short: "Farm Owner"
+        icon: "\U0001F33E"
+        color: "#92400e"
+      - id: farmworker
+        name: "Migrant Farmworker / UFW Organizer"
+        short: "Farmworker"
+        icon: "\u270A"
+        color: "#dc2626"
+      - id: organic-farmer
+        name: "Organic Small Farm Owner"
+        short: "Organic Farmer"
+        icon: "\U0001F331"
+        color: "#65a30d"
+      - id: environmental-ngo
+        name: "Environmental NGO Representative"
+        short: "Env. NGO"
+        icon: "\U0001F30D"
+        color: "#0369a1"
+      - id: government-regulator
+        name: "Federal/State Government Regulator"
+        short: "Regulator"
+        icon: "\U0001F3DB"
+        color: "#4338ca"
+      - id: pesticide-company
+        name: "Pesticide/Agrochemical Company Rep"
+        short: "Agrochem Rep"
+        icon: "\u2697\uFE0F"
+        color: "#7c3aed"
+      - id: consumer-advocate
+        name: "Consumer Advocate / Food Safety Watchdog"
+        short: "Consumer Advocate"
+        icon: "\U0001F6E1\uFE0F"
+        color: "#be185d"
+      - id: food-retailer
+        name: "National Food Retailer / Produce Buyer"
+        short: "Food Retailer"
+        icon: "\U0001F6D2"
+        color: "#ea580c"
+
+  - id: protein
+    name: Protein
+    icon: "\U0001F969"
+    tagline: "Beef, poultry & alternative proteins"
+    color: "#92400e"
+    color_light: "#fffbeb"
+    source_file: "02 - Protein - Stakeholder.md"
+    stakeholders:
+      - id: beef-packer
+        name: "Industrial Beef Packer / Integrator Executive"
+        short: "Beef Packer"
+        icon: "\U0001F3ED"
+        color: "#991b1b"
+      - id: contract-grower
+        name: "Contract Poultry/Hog Grower"
+        short: "Contract Grower"
+        icon: "\U0001F414"
+        color: "#92400e"
+      - id: meatpacking-worker
+        name: "Meatpacking Plant Worker / Labor Organizer"
+        short: "Plant Worker"
+        icon: "\U0001F9E4"
+        color: "#dc2626"
+      - id: deforestation-ngo
+        name: "Environmental NGO — Deforestation & Climate"
+        short: "Env. NGO"
+        icon: "\U0001F332"
+        color: "#15803d"
+      - id: animal-welfare
+        name: "Animal Welfare Advocate"
+        short: "Animal Welfare"
+        icon: "\U0001F43E"
+        color: "#0369a1"
+      - id: rural-health
+        name: "Rural Community Health Advocate"
+        short: "Community Health"
+        icon: "\U0001F3E5"
+        color: "#7c3aed"
+      - id: food-safety-regulator
+        name: "Government Food Safety Regulator"
+        short: "USDA Regulator"
+        icon: "\U0001F3DB"
+        color: "#4338ca"
+
+  - id: ai
+    name: AI
+    icon: "\U0001F916"
+    tagline: "Large language models & data infrastructure"
+    color: "#0369a1"
+    color_light: "#f0f9ff"
+    source_file: "03 - AI - Stakeholder.md"
+    stakeholders:
+      - id: ai-executive
+        name: "AI Technology Company Executive"
+        short: "AI Executive"
+        icon: "\U0001F4BB"
+        color: "#1e40af"
+      - id: supply-chain-manager
+        name: "Nvidia / TSMC Supply Chain Manager"
+        short: "Chip Supply Chain"
+        icon: "\U0001FA78"
+        color: "#7c3aed"
+      - id: drc-miner
+        name: "DRC Artisanal Cobalt and Coltan Miner"
+        short: "DRC Miner"
+        icon: "\u26CF\uFE0F"
+        color: "#92400e"
+      - id: environmental-justice
+        name: "Environmental Justice Advocate — Data Centers"
+        short: "Env. Justice"
+        icon: "\U0001F30D"
+        color: "#15803d"
+      - id: content-creator
+        name: "Content Creator / Visual Artist or Writer"
+        short: "Artist/Writer"
+        icon: "\U0001F3A8"
+        color: "#be185d"
+      - id: ai-ethics
+        name: "AI Safety and Ethics Researcher"
+        short: "AI Ethics"
+        icon: "\U0001F9EA"
+        color: "#dc2626"
+      - id: government-regulator
+        name: "Government Regulator — Trade, Energy, Environment"
+        short: "Gov. Regulator"
+        icon: "\U0001F3DB"
+        color: "#4338ca"
+
+  - id: streaming
+    name: Streaming
+    icon: "\U0001F3B5"
+    tagline: "Digital media, music & video platforms"
+    color: "#7c3aed"
+    color_light: "#faf5ff"
+    source_file: "04 - Streaming - Stakeholder.md"
+    stakeholders:
+      - id: platform-executive
+        name: "Streaming Platform Infrastructure Executive"
+        short: "Platform Exec"
+        icon: "\U0001F4E1"
+        color: "#7c3aed"
+      - id: indie-musician
+        name: "Independent Musician / Content Creator"
+        short: "Indie Musician"
+        icon: "\U0001F3B8"
+        color: "#dc2626"
+      - id: community-resident
+        name: "Data Center Host Community Resident"
+        short: "Community Resident"
+        icon: "\U0001F3E0"
+        color: "#92400e"
+      - id: env-researcher
+        name: "Environmental Researcher (Digital Carbon Footprint)"
+        short: "Env. Researcher"
+        icon: "\U0001F30D"
+        color: "#15803d"
+      - id: cable-engineer
+        name: "Undersea Cable Engineer / Submarine Cable Operator"
+        short: "Cable Engineer"
+        icon: "\u2693"
+        color: "#0369a1"
+      - id: label-executive
+        name: "Major Music Label Executive"
+        short: "Label Exec"
+        icon: "\U0001F4BF"
+        color: "#1e40af"
+      - id: energy-regulator
+        name: "Government Energy and Utility Regulator"
+        short: "Energy Regulator"
+        icon: "\U0001F3DB"
+        color: "#4338ca"
+
+  - id: evs
+    name: EVs
+    icon: "\U0001F50B"
+    tagline: "Electric vehicles, batteries & critical minerals"
+    color: "#0891b2"
+    color_light: "#ecfeff"
+    source_file: "05 - EVs - Stakeholder.md"
+    stakeholders:
+      - id: automaker-executive
+        name: "EV Automaker Executive"
+        short: "Automaker Exec"
+        icon: "\U0001F697"
+        color: "#1e40af"
+      - id: cobalt-miner
+        name: "Artisanal Cobalt Miner (DRC)"
+        short: "Cobalt Miner"
+        icon: "\u26CF\uFE0F"
+        color: "#92400e"
+      - id: indigenous-leader
+        name: "Indigenous Community Leader (Atacama, Chile)"
+        short: "Indigenous Leader"
+        icon: "\U0001F3D4\uFE0F"
+        color: "#dc2626"
+      - id: battery-executive
+        name: "Battery Materials Company Executive"
+        short: "Battery Exec"
+        icon: "\U0001F50B"
+        color: "#7c3aed"
+      - id: autoworker-union
+        name: "Autoworker Union Representative"
+        short: "Union Rep"
+        icon: "\u270A"
+        color: "#ea580c"
+      - id: env-justice
+        name: "Environmental Justice Advocate"
+        short: "Env. Justice"
+        icon: "\U0001F30D"
+        color: "#15803d"
+      - id: mining-regulator
+        name: "Government Mining and Trade Regulator"
+        short: "Mining Regulator"
+        icon: "\U0001F3DB"
+        color: "#4338ca"
+
+  - id: tvs
+    name: TVs
+    icon: "\U0001F4FA"
+    tagline: "Television manufacturing, rare earths & e-waste"
+    color: "#475569"
+    color_light: "#f8fafc"
+    source_file: "06 - TVs - Stakeholder.md"
+    stakeholders:
+      - id: tv-brand-svp
+        name: "TV Brand SVP — Supply Chain & Sustainability"
+        short: "TV Brand SVP"
+        icon: "\U0001F4FA"
+        color: "#1e40af"
+      - id: rare-earth-director
+        name: "Chinese Rare Earth Mining Director"
+        short: "Rare Earth Dir."
+        icon: "\u26CF\uFE0F"
+        color: "#92400e"
+      - id: fab-worker
+        name: "Display Panel Factory Worker / Health Advocate"
+        short: "Fab Worker"
+        icon: "\U0001F9E4"
+        color: "#dc2626"
+      - id: mining-community
+        name: "Mining Community Resident (Jiangxi, China)"
+        short: "Mining Community"
+        icon: "\U0001F3E0"
+        color: "#ea580c"
+      - id: environmental-ngo
+        name: "Environmental NGO Campaigner"
+        short: "Env. NGO"
+        icon: "\U0001F30D"
+        color: "#15803d"
+      - id: trade-association
+        name: "Consumer Technology Association VP"
+        short: "CTA VP"
+        icon: "\U0001F4BC"
+        color: "#7c3aed"
+      - id: critical-minerals-official
+        name: "Government Critical Minerals Official"
+        short: "Gov. Official"
+        icon: "\U0001F3DB"
+        color: "#4338ca"
+      - id: recycling-advocate
+        name: "Electronics Recycling / Right-to-Repair Advocate"
+        short: "Recycling Advocate"
+        icon: "\u267B\uFE0F"
+        color: "#0891b2"

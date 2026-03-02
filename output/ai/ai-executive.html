@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Executive — AI — SES Stakeholder Summit</title>
+  <link rel="stylesheet" href="../css/shared.css">
+</head>
+<body data-category="ai" data-role="ai-executive"
+      style="--accent: #1e40af; --accent-light: #f0f9ff; --accent-mid: #1e40af1a; --cat-color: #0369a1">
+
+  <div class="scroll-progress"></div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero__nav">
+      <a href="./" class="hero__back">🤖 AI</a>
+    </div>
+    <div class="hero__icon">💻</div>
+    <h1 class="hero__title">AI Technology Company Executive</h1>
+    <p class="hero__subtitle">Senior Vice President of Infrastructure, Major AI Lab (OpenAI / Google DeepMind / Meta AI)</p>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+
+    <!-- Who You Are -->
+    <div class="card">
+      <div class="card__label">Who You Represent</div>
+      <p>The leadership of frontier AI development companies responsible for training and deploying large language models. These individuals oversee decisions about data center siting, energy sourcing, hardware procurement, training dataset composition, and the pace of model releases.</p>
+    </div>
+
+    <!-- What's at Stake -->
+    
+    <div class="card card--intel reveal-ready">
+      <div class="card__label">What's at Stake</div>
+      <ul>
+        
+        <li>GPU supply bottlenecks from TSMC capacity constraints and export control uncertainty</li>
+        
+        <li>Rising energy costs and grid instability threatening data center uptime</li>
+        
+        <li>Regulatory pressure on training data sourcing following copyright lawsuits</li>
+        
+        <li>Reputational damage from cobalt supply chain and content moderator labor conditions</li>
+        
+      </ul>
+    </div>
+    
+
+    <!-- Your Evidence -->
+    
+    <div class="card card--intel reveal-ready">
+      <div class="card__label">Your Priorities & Evidence</div>
+      <ul class="evidence-list">
+        
+        <li class="evidence-item" data-index="0">
+          <span class="evidence-text">Maintaining competitive position by training more powerful models faster</span>
+          <button class="star-btn" title="Star this argument" aria-label="Star argument">&#9734;</button>
+        </li>
+        
+        <li class="evidence-item" data-index="1">
+          <span class="evidence-text">Securing sufficient GPU compute (Nvidia H100/B200 clusters) and stable energy supply at scale</span>
+          <button class="star-btn" title="Star this argument" aria-label="Star argument">&#9734;</button>
+        </li>
+        
+        <li class="evidence-item" data-index="2">
+          <span class="evidence-text">Managing reputational risk from environmental and labor controversies</span>
+          <button class="star-btn" title="Star this argument" aria-label="Star argument">&#9734;</button>
+        </li>
+        
+        <li class="evidence-item" data-index="3">
+          <span class="evidence-text">Generating revenue from AI products to justify massive infrastructure investment</span>
+          <button class="star-btn" title="Star this argument" aria-label="Star argument">&#9734;</button>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+    <!-- Prepare Your Position (Interactive) -->
+    <div class="card card--interactive">
+      <div class="card__label">Prepare Your Position</div>
+      <p class="card__hint">Your notes are saved on this device only — no one else can see them.</p>
+
+      <div class="prep-field">
+        <label for="prep-priority">What is your #1 priority going into this summit?</label>
+        <textarea id="prep-priority" data-key="position-priority" placeholder="What matters most to you and why..." rows="3"></textarea>
+      </div>
+
+      <div class="prep-field">
+        <label for="prep-trade">What would you be willing to trade or compromise on?</label>
+        <textarea id="prep-trade" data-key="position-trade" placeholder="Where is there room to negotiate..." rows="3"></textarea>
+      </div>
+
+      <div class="prep-field">
+        <label for="prep-redline">What is your red line — what can you absolutely not accept?</label>
+        <textarea id="prep-redline" data-key="position-redline" placeholder="What is non-negotiable for you..." rows="3"></textarea>
+      </div>
+
+      <div class="save-indicator" id="save-indicator">Saved</div>
+    </div>
+
+    <!-- Coalition Predictions (Interactive) -->
+    <div class="card card--interactive">
+      <div class="card__label">Predict Your Coalitions</div>
+      <p class="card__hint">Before the summit, predict: who might be your ally, opponent, or somewhere in between? Tap to cycle.</p>
+
+      <div class="coalition-grid">
+        
+        <button class="coalition-card" data-stakeholder-id="supply-chain-manager" data-state="neutral">
+          <div class="coalition-card__icon">🩸</div>
+          <div class="coalition-card__name">Chip Supply Chain</div>
+          <div class="coalition-card__state">Tap to predict</div>
+        </button>
+        
+        <button class="coalition-card" data-stakeholder-id="drc-miner" data-state="neutral">
+          <div class="coalition-card__icon">⛏️</div>
+          <div class="coalition-card__name">DRC Miner</div>
+          <div class="coalition-card__state">Tap to predict</div>
+        </button>
+        
+        <button class="coalition-card" data-stakeholder-id="environmental-justice" data-state="neutral">
+          <div class="coalition-card__icon">🌍</div>
+          <div class="coalition-card__name">Env. Justice</div>
+          <div class="coalition-card__state">Tap to predict</div>
+        </button>
+        
+        <button class="coalition-card" data-stakeholder-id="content-creator" data-state="neutral">
+          <div class="coalition-card__icon">🎨</div>
+          <div class="coalition-card__name">Artist/Writer</div>
+          <div class="coalition-card__state">Tap to predict</div>
+        </button>
+        
+        <button class="coalition-card" data-stakeholder-id="ai-ethics" data-state="neutral">
+          <div class="coalition-card__icon">🧪</div>
+          <div class="coalition-card__name">AI Ethics</div>
+          <div class="coalition-card__state">Tap to predict</div>
+        </button>
+        
+        <button class="coalition-card" data-stakeholder-id="government-regulator" data-state="neutral">
+          <div class="coalition-card__icon">🏛</div>
+          <div class="coalition-card__name">Gov. Regulator</div>
+          <div class="coalition-card__state">Tap to predict</div>
+        </button>
+        
+      </div>
+    </div>
+
+    <!-- Browse Other Roles -->
+    <details class="accordion">
+      <summary>Browse All AI Stakeholders</summary>
+      <div class="accordion-content">
+        <div class="browse-grid">
+          
+          
+          
+          
+          <a href="supply-chain-manager.html" class="browse-link">
+            <span class="browse-link__icon">🩸</span>
+            Chip Supply Chain
+          </a>
+          
+          
+          
+          <a href="drc-miner.html" class="browse-link">
+            <span class="browse-link__icon">⛏️</span>
+            DRC Miner
+          </a>
+          
+          
+          
+          <a href="environmental-justice.html" class="browse-link">
+            <span class="browse-link__icon">🌍</span>
+            Env. Justice
+          </a>
+          
+          
+          
+          <a href="content-creator.html" class="browse-link">
+            <span class="browse-link__icon">🎨</span>
+            Artist/Writer
+          </a>
+          
+          
+          
+          <a href="ai-ethics.html" class="browse-link">
+            <span class="browse-link__icon">🧪</span>
+            AI Ethics
+          </a>
+          
+          
+          
+          <a href="government-regulator.html" class="browse-link">
+            <span class="browse-link__icon">🏛</span>
+            Gov. Regulator
+          </a>
+          
+          
+        </div>
+      </div>
+    </details>
+
+    <!-- Post-Summit Reflection (Initially Locked) -->
+    <div class="card card--post-summit" id="post-summit">
+      <div class="card__label">Post-Summit Reflection</div>
+      <button class="unlock-btn" id="unlock-btn">Unlock Post-Summit Reflection</button>
+
+      <div class="post-summit-content" id="post-summit-content" style="display:none">
+        <div class="prep-field">
+          <label for="reflect-surprise">Which stakeholder surprised you most, and why?</label>
+          <textarea id="reflect-surprise" data-key="reflection-surprise" placeholder="Who acted differently than you expected..." rows="3"></textarea>
+        </div>
+
+        <div class="prep-field">
+          <label for="reflect-common">Where did you find unexpected common ground?</label>
+          <textarea id="reflect-common" data-key="reflection-common" placeholder="What alliances or agreements surprised you..." rows="3"></textarea>
+        </div>
+
+        <div class="prep-field">
+          <label for="reflect-intervention">What system intervention would you now propose?</label>
+          <textarea id="reflect-intervention" data-key="reflection-intervention" placeholder="Based on the discussion, what change would have the most impact..." rows="3"></textarea>
+        </div>
+
+        <button class="reveal-btn" id="reveal-btn">Reveal Research-Based Coalitions</button>
+
+        <div class="coalition-reveal" id="coalition-reveal" style="display:none">
+          <div class="coalition-reveal__section">
+            <div class="coalition-reveal__label coalition-reveal__label--ally">Research-Based Allies</div>
+            <p>Stakeholder 2 (Nvidia supply chain), Stakeholder 7 (government regulator supportive of U.S. AI competitiveness)</p>
+          </div>
+          <div class="coalition-reveal__section">
+            <div class="coalition-reveal__label coalition-reveal__label--opponent">Research-Based Opponents</div>
+            <p>Stakeholder 4 (environmental justice advocate), Stakeholder 5 (artist/writer), Stakeholder 3 (DRC artisanal miner)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Hidden data for JS -->
+  <script id="page-data" type="application/json">
+    {
+      "category": "ai",
+      "role": "ai-executive"
+    }
+  </script>
+
+  <div class="toast">Saved</div>
+  <script src="../js/app.js"></script>
+</body>
+</html>
