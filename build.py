@@ -88,7 +88,8 @@ def extract_field(section, field_name):
     rest = section[m.end():]
 
     # Find the end of this field (next **Field** marker or end of section)
-    end_match = re.search(r'\n\s*\*\*[A-Z]', rest)
+    # Handles both "**Field" and "- **Field" formats
+    end_match = re.search(r'\n[-\s]*\*\*[A-Z]', rest)
     if end_match:
         value = rest[:end_match.start()]
     else:
@@ -105,7 +106,7 @@ def extract_field_fuzzy(section, field_prefix):
         return None
 
     rest = section[m.end():]
-    end_match = re.search(r'\n\s*\*\*[A-Z]', rest)
+    end_match = re.search(r'\n[-\s]*\*\*[A-Z]', rest)
     if end_match:
         value = rest[:end_match.start()]
     else:
