@@ -15,7 +15,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONTENT_DIR = os.path.join(BASE_DIR, 'content')
 STAKEHOLDER_DIR = os.path.join(CONTENT_DIR, 'stakeholders')
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
-OUTPUT_DIR = os.path.join(BASE_DIR, 'output')
+OUTPUT_DIR = os.path.join(BASE_DIR, 'docs')
 
 
 def load_config():
